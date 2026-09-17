@@ -1,8 +1,6 @@
 function Elokuvalista({ elokuvat, poistaElokuva }) {
   return (
     <section>
-      <h2>Elokuvat</h2>
-
       {elokuvat.map((elokuva, index) => (
         <div className="movie" key={index}>
           <div>
